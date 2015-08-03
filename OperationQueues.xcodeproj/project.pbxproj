@@ -13,7 +13,18 @@
 		249B41411B6C960B00870EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249B413F1B6C960B00870EFF /* Main.storyboard */; };
 		249B41431B6C960B00870EFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249B41421B6C960B00870EFF /* Images.xcassets */; };
 		249B41461B6C960B00870EFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 249B41441B6C960B00870EFF /* LaunchScreen.xib */; };
-		249B41521B6C960B00870EFF /* OperationQueuesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41511B6C960B00870EFF /* OperationQueuesTests.m */; };
+		249B41661B6CA65400870EFF /* OQCreateInvocationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41651B6CA65400870EFF /* OQCreateInvocationOperation.m */; };
+		249B41691B6CA72300870EFF /* OQCreateInvocationOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41681B6CA72300870EFF /* OQCreateInvocationOperationTests.m */; };
+		249B416D1B6CB85100870EFF /* OQCreateBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B416C1B6CB85100870EFF /* OQCreateBlockOperation.m */; };
+		249B41701B6CB90B00870EFF /* OQCreateBlockOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B416F1B6CB90B00870EFF /* OQCreateBlockOperationTests.m */; };
+		249B41741B6CCA3600870EFF /* OQNonConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41731B6CCA3600870EFF /* OQNonConcurrentOperation.m */; };
+		249B41771B6CCBDB00870EFF /* OQNonConcurrentOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41761B6CCBDB00870EFF /* OQNonConcurrentOperationTests.m */; };
+		249B417A1B6CFC8200870EFF /* OQConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41791B6CFC8200870EFF /* OQConcurrentOperation.m */; };
+		249B418B1B6E5E4000870EFF /* OQConcurrentOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B418A1B6E5E4000870EFF /* OQConcurrentOperationTests.m */; };
+		249B419F1B6F06C700870EFF /* OQManualExecuteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B419C1B6F06C700870EFF /* OQManualExecuteOperation.m */; };
+		249B41A01B6F06C700870EFF /* OQUseOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B419E1B6F06C700870EFF /* OQUseOperationQueue.m */; };
+		249B41A41B6F06EF00870EFF /* OQManualExecuteOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41A21B6F06EF00870EFF /* OQManualExecuteOperationTests.m */; };
+		249B41A51B6F06EF00870EFF /* OQUseOperationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249B41A31B6F06EF00870EFF /* OQUseOperationQueueTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +50,24 @@
 		249B41451B6C960B00870EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		249B414B1B6C960B00870EFF /* OperationQueuesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationQueuesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		249B41501B6C960B00870EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		249B41511B6C960B00870EFF /* OperationQueuesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationQueuesTests.m; sourceTree = "<group>"; };
+		249B41641B6CA65400870EFF /* OQCreateInvocationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQCreateInvocationOperation.h; sourceTree = "<group>"; };
+		249B41651B6CA65400870EFF /* OQCreateInvocationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCreateInvocationOperation.m; sourceTree = "<group>"; };
+		249B41681B6CA72300870EFF /* OQCreateInvocationOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCreateInvocationOperationTests.m; sourceTree = "<group>"; };
+		249B416B1B6CB85100870EFF /* OQCreateBlockOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQCreateBlockOperation.h; sourceTree = "<group>"; };
+		249B416C1B6CB85100870EFF /* OQCreateBlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCreateBlockOperation.m; sourceTree = "<group>"; };
+		249B416F1B6CB90B00870EFF /* OQCreateBlockOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQCreateBlockOperationTests.m; sourceTree = "<group>"; };
+		249B41721B6CCA3600870EFF /* OQNonConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQNonConcurrentOperation.h; sourceTree = "<group>"; };
+		249B41731B6CCA3600870EFF /* OQNonConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQNonConcurrentOperation.m; sourceTree = "<group>"; };
+		249B41761B6CCBDB00870EFF /* OQNonConcurrentOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQNonConcurrentOperationTests.m; sourceTree = "<group>"; };
+		249B41781B6CFC8200870EFF /* OQConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQConcurrentOperation.h; sourceTree = "<group>"; };
+		249B41791B6CFC8200870EFF /* OQConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQConcurrentOperation.m; sourceTree = "<group>"; };
+		249B418A1B6E5E4000870EFF /* OQConcurrentOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQConcurrentOperationTests.m; sourceTree = "<group>"; };
+		249B419B1B6F06C700870EFF /* OQManualExecuteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQManualExecuteOperation.h; sourceTree = "<group>"; };
+		249B419C1B6F06C700870EFF /* OQManualExecuteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQManualExecuteOperation.m; sourceTree = "<group>"; };
+		249B419D1B6F06C700870EFF /* OQUseOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQUseOperationQueue.h; sourceTree = "<group>"; };
+		249B419E1B6F06C700870EFF /* OQUseOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQUseOperationQueue.m; sourceTree = "<group>"; };
+		249B41A21B6F06EF00870EFF /* OQManualExecuteOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQManualExecuteOperationTests.m; sourceTree = "<group>"; };
+		249B41A31B6F06EF00870EFF /* OQUseOperationQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQUseOperationQueueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,10 @@
 		249B41341B6C960B00870EFF /* OperationQueues */ = {
 			isa = PBXGroup;
 			children = (
+				249B415D1B6CA2A900870EFF /* NSInvocationOperation */,
+				249B416A1B6CB6F000870EFF /* NSBlockOperation */,
+				249B41711B6CCA1800870EFF /* CustomOperation */,
+				249B419A1B6F06C700870EFF /* ExecuteOperation */,
 				249B41391B6C960B00870EFF /* AppDelegate.h */,
 				249B413A1B6C960B00870EFF /* AppDelegate.m */,
 				249B413C1B6C960B00870EFF /* ViewController.h */,
@@ -105,7 +137,10 @@
 		249B414E1B6C960B00870EFF /* OperationQueuesTests */ = {
 			isa = PBXGroup;
 			children = (
-				249B41511B6C960B00870EFF /* OperationQueuesTests.m */,
+				249B41671B6CA71400870EFF /* NSInvocationOperation */,
+				249B416E1B6CB8FD00870EFF /* NSBlockOperation */,
+				249B41751B6CCBCE00870EFF /* CustomOperation */,
+				249B41A11B6F06EF00870EFF /* ExecuteOperation */,
 				249B414F1B6C960B00870EFF /* Supporting Files */,
 			);
 			path = OperationQueuesTests;
@@ -117,6 +152,80 @@
 				249B41501B6C960B00870EFF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249B415D1B6CA2A900870EFF /* NSInvocationOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B41641B6CA65400870EFF /* OQCreateInvocationOperation.h */,
+				249B41651B6CA65400870EFF /* OQCreateInvocationOperation.m */,
+			);
+			path = NSInvocationOperation;
+			sourceTree = "<group>";
+		};
+		249B41671B6CA71400870EFF /* NSInvocationOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B41681B6CA72300870EFF /* OQCreateInvocationOperationTests.m */,
+			);
+			path = NSInvocationOperation;
+			sourceTree = "<group>";
+		};
+		249B416A1B6CB6F000870EFF /* NSBlockOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B416B1B6CB85100870EFF /* OQCreateBlockOperation.h */,
+				249B416C1B6CB85100870EFF /* OQCreateBlockOperation.m */,
+			);
+			path = NSBlockOperation;
+			sourceTree = "<group>";
+		};
+		249B416E1B6CB8FD00870EFF /* NSBlockOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B416F1B6CB90B00870EFF /* OQCreateBlockOperationTests.m */,
+			);
+			path = NSBlockOperation;
+			sourceTree = "<group>";
+		};
+		249B41711B6CCA1800870EFF /* CustomOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B41721B6CCA3600870EFF /* OQNonConcurrentOperation.h */,
+				249B41731B6CCA3600870EFF /* OQNonConcurrentOperation.m */,
+				249B41781B6CFC8200870EFF /* OQConcurrentOperation.h */,
+				249B41791B6CFC8200870EFF /* OQConcurrentOperation.m */,
+			);
+			path = CustomOperation;
+			sourceTree = "<group>";
+		};
+		249B41751B6CCBCE00870EFF /* CustomOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B41761B6CCBDB00870EFF /* OQNonConcurrentOperationTests.m */,
+				249B418A1B6E5E4000870EFF /* OQConcurrentOperationTests.m */,
+			);
+			path = CustomOperation;
+			sourceTree = "<group>";
+		};
+		249B419A1B6F06C700870EFF /* ExecuteOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B419D1B6F06C700870EFF /* OQUseOperationQueue.h */,
+				249B419E1B6F06C700870EFF /* OQUseOperationQueue.m */,
+				249B419B1B6F06C700870EFF /* OQManualExecuteOperation.h */,
+				249B419C1B6F06C700870EFF /* OQManualExecuteOperation.m */,
+			);
+			path = ExecuteOperation;
+			sourceTree = "<group>";
+		};
+		249B41A11B6F06EF00870EFF /* ExecuteOperation */ = {
+			isa = PBXGroup;
+			children = (
+				249B41A31B6F06EF00870EFF /* OQUseOperationQueueTests.m */,
+				249B41A21B6F06EF00870EFF /* OQManualExecuteOperationTests.m */,
+			);
+			path = ExecuteOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249B41741B6CCA3600870EFF /* OQNonConcurrentOperation.m in Sources */,
+				249B41A01B6F06C700870EFF /* OQUseOperationQueue.m in Sources */,
 				249B413E1B6C960B00870EFF /* ViewController.m in Sources */,
+				249B416D1B6CB85100870EFF /* OQCreateBlockOperation.m in Sources */,
 				249B413B1B6C960B00870EFF /* AppDelegate.m in Sources */,
 				249B41381B6C960B00870EFF /* main.m in Sources */,
+				249B417A1B6CFC8200870EFF /* OQConcurrentOperation.m in Sources */,
+				249B41661B6CA65400870EFF /* OQCreateInvocationOperation.m in Sources */,
+				249B419F1B6F06C700870EFF /* OQManualExecuteOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +344,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249B41521B6C960B00870EFF /* OperationQueuesTests.m in Sources */,
+				249B41691B6CA72300870EFF /* OQCreateInvocationOperationTests.m in Sources */,
+				249B41771B6CCBDB00870EFF /* OQNonConcurrentOperationTests.m in Sources */,
+				249B41A41B6F06EF00870EFF /* OQManualExecuteOperationTests.m in Sources */,
+				249B418B1B6E5E4000870EFF /* OQConcurrentOperationTests.m in Sources */,
+				249B41701B6CB90B00870EFF /* OQCreateBlockOperationTests.m in Sources */,
+				249B41A51B6F06EF00870EFF /* OQUseOperationQueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = OperationQueues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = OperationQueues/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +538,7 @@
 				249B41571B6C960B00870EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		249B41581B6C960B00870EFF /* Build configuration list for PBXNativeTarget "OperationQueuesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +547,7 @@
 				249B415A1B6C960B00870EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
