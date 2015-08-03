@@ -2,7 +2,7 @@
 
 我的博文[《iOS 并发编程之 Operation Queues》](http://blog.leichunfeng.com/blog/2015/07/29/ios-concurrency-programming-operation-queues/)的完整配套代码。
 
-## 创建 NSInvocationOperation 对象
+创建 NSInvocationOperation 对象：
 
 ``` objc
 @interface OQCreateInvocationOperation : NSObject
@@ -43,7 +43,7 @@
 @end
 ```
 
-## 创建 NSBlockOperation 对象
+创建 NSBlockOperation 对象：
 
 ``` objc
 @interface OQCreateBlockOperation : NSObject
@@ -79,7 +79,7 @@
 @end
 ```
 
-## 自定义非并发的 Operation 对象
+自定义非并发的 Operation 对象：
 
 ``` objc
 @interface OQNonConcurrentOperation : NSOperation
@@ -143,7 +143,7 @@
 @end
 ```
 
-## 自定义并发的 Operation 对象
+自定义并发的 Operation 对象：
 
 ``` objc
 @interface OQConcurrentOperation : NSOperation
@@ -217,7 +217,7 @@
 @end
 ```
 
-## 使用 Operation Queue 执行 Operation 对象
+使用 Operation Queue 执行 Operation 对象：
 
 ``` objc
 @interface OQUseOperationQueue : NSObject
@@ -266,7 +266,7 @@
 @end
 ```
 
-## 手动执行 Operation 对象
+手动执行 Operation 对象：
 
 ``` objc
 @interface OQManualExecuteOperation : NSObject
