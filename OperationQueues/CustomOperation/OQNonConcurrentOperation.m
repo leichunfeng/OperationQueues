@@ -24,17 +24,19 @@
     return self;
 }
 
+/*
 ///  不支持取消操作
-//- (void)main {
-//    @try {
-//        NSLog(@"Start executing %@ with data: %@, mainThread: %@, currentThread: %@", NSStringFromSelector(_cmd), self.data, [NSThread mainThread], [NSThread currentThread]);
-//        sleep(3);
-//        NSLog(@"Finish executing %@", NSStringFromSelector(_cmd));
-//    }
-//    @catch(NSException *exception) {
-//        NSLog(@"Exception: %@", exception);
-//    }
-//}
+- (void)main {
+    @try {
+        NSLog(@"Start executing %@ with data: %@, mainThread: %@, currentThread: %@", NSStringFromSelector(_cmd), self.data, [NSThread mainThread], [NSThread currentThread]);
+        sleep(3);
+        NSLog(@"Finish executing %@", NSStringFromSelector(_cmd));
+    }
+    @catch(NSException *exception) {
+        NSLog(@"Exception: %@", exception);
+    }
+}
+*/
 
 ///  支持取消操作
 - (void)main {
